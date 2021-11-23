@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+ @media only screen and (min-width:319px) {
+	.col-sm-10 img{
+		width:150px;
+		
+		height:150px;
+	}
+	}
+	 @media only screen and (min-width:799px) {
+	.col-sm-10 img{
+		width:200px;
+		height:250px
+	}
+	}
+

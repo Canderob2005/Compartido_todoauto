@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i,Roboto:300,100italic&subset=devanagari,latin-ext');
+@charset "utf-8";
+/* CSS Document */
+
+#cards h1{	
+    font-family: 'Roboto';
+	font-weight:300;
+	color:#fff;
+}
+#cards .col-sm-6 h5 , p{	
+    font-family: 'Roboto';
+	font-weight:300;
+}
+#slogan-rojo .div{
+	    font-family: 'Roboto';
+	font-weight:500;
+	font-style: italic;
+}

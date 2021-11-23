@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^informacion-(.*).php$ .article_show_friendly.php?url=$1

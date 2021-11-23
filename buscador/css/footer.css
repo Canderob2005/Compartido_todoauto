@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Roboto-BlackItalic";
+    src: url('fonts/Roboto-BlackItalic.ttf');
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url('fonts/Roboto-Medium.ttf');
+}
+@charset "utf-8";
+/* CSS Document */
+
+section {
+    padding: 20px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #0B0B61;
+	 
+}
+
+.modal-body {
+    background: #0B0B61;
+	 
+}
+
+.modal-body a {
+	 font-size:12px;
+	  text-align: center;
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+	font-family:'Roboto';
+}
+
+.modal-body ul.social li{
+	padding: 3px 0;
+}
+.modal-body ul.social li a i {
+    margin-right: 15px;
+	font-size:35px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+.modal-body ul.social li:hover a i {
+	font-size:50px;
+	margin-top:-10px;
+}
+
+.modal-body ul.quick-links li a{
+	color:#ffffff;
+}
+.modal-body ul.social li a:hover{
+	color:#eeeeee;
+}
+.modal-body ul.quick-links li{
+	padding: 6px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+.modal-body ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+.modal-body ul.quick-links li a i{
+	margin-right: 5px;
+}
+.modal-body ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+
+
+
+
+
+  
+#footer .col-xs-12  h5{
+	padding-center: 10px;
+   font-size:16px;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+	font-family:'Roboto';
+}
+#footer a {
+	 font-size:12px;
+	  text-align: center;
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+
+#footer .col-xs-12 p {
+    color: #ffffff;
+	font-size:10px;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+	font-family:'Roboto';
+}
+
+
+
+
+@media only screen and (min-width:767px) {
+#footer .col-xs-12 h5{
+    margin-bottom: 20px;
+    color:#ffffff;
+	text-align:center;
+	font-size:26px;
+	font-family:'Roboto';
+}
+#footer .col-xs-12 p{
+	margin-top:-10px;
+    color:#ffffff;
+	text-align:center;
+	font-size:16px;
+	font-family:'Roboto';
+}

@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+ @media only screen and (min-width: 319px) {
+	  .preloader {
+	margin-left:40%;
+
+  width: 50px;
+  height: 50px;
+  border: 10px solid #CCC;
+  border-top: 10px solid #00F;
+  border-radius: 50%;
+  animation-name: girar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  }
+}
+  @media only screen and (min-width: 470px) {
+	  .preloader {
+	margin-left:43%;
+
+  width: 50px;
+  height: 50px;
+  border: 10px solid #CCC;
+  border-top: 10px solid #00F;
+  border-radius: 50%;
+  animation-name: girar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  }
+}
+ @media only screen and (min-width: 580px) {
+	  .preloader {
+	margin-left:45%;
+
+  width: 50px;
+  height: 50px;
+  border: 10px solid #CCC;
+  border-top: 10px solid #00F;
+  border-radius: 50%;
+  animation-name: girar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  }
+}
+ @media only screen and (min-width: 724px) {
+.preloader {
+	margin-left:46%;
+  width: 50px;
+  height: 50px;
+  border: 10px solid #CCC;
+  border-top: 10px solid #00F;
+  border-radius: 50%;
+  animation-name: girar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  }
+ }
+

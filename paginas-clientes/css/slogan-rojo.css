@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+/* Mobile Layout: 480px and below. */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@media only screen and (min-width: 219px) {
+letras  {
+	 height:20px;
+  text-align:center;
+  font-family:'Roboto';
+  font-weight:100;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+ .div {
+	text-align:center;
+  font-family:'Roboto';
+  font-weight:600;
+	font-size:12px;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 8s infinite;
+}
+
+.div:last-of-type {
+  width:0px;
+  animation: reveal 8s infinite;
+}
+
+.div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 8s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:155px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:155px;}
+}
+
+/* Mobile Layout: 480px and below. */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@media only screen and (min-width: 479px) {
+letras  {
+	 height:20px;
+  text-align:center;
+  font-family:'Roboto';
+  font-weight:100;
+ 
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+ .div {
+	 margin-top:px;
+	text-align:center;
+  font-family:'Roboto';
+  font-weight:600;
+	font-size:20px;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 8s infinite;
+}
+
+.div:last-of-type {
+  width:0px;
+  animation: reveal 8s infinite;
+}
+
+.div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 8s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:155px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:155px;}
+}
+
+@media only screen and (min-width: 599px) {
+
+
+letras  {
+  
+  height:20px;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.div {
+	 margin-top:px;
+	text-align:center;
+  font-family:'Roboto';
+  font-weight:600;
+	font-size:20px;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 8s infinite;
+}
+
+.div:last-of-type {
+  width:0px;
+  animation: reveal 8s infinite;
+}
+
+.div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 8s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:225px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:225px;}
+}
+
+@media only screen and (min-width: 767px) {
+
+
+letras  {
+  
+  height:20px;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+ .div {
+	 margin-top:-4px;
+	text-align:center;
+  font-family:'Roboto';
+  font-weight:600;
+	font-size:18px;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 8s infinite;
+}
+
+.div:last-of-type {
+  width:0px;
+  animation: reveal 8s infinite;
+}
+
+.div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 8s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:225px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:225px;}
+}
+@media only screen and (min-width: 1023px) {
+letras  {
+  
+   height:20px;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+
+}
+
+
+
+.div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 8s infinite;
+}
+
+.div:last-of-type {
+  width:0px;
+  animation: reveal 8s infinite;
+}
+
+.div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 8s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+

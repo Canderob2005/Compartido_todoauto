@@ -1,0 +1,476 @@
+@import url('Roboto.css');
+
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+ a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ a:active {
+	color:#FFF;
+	text-decoration: none;
+}
+
+.fa-whatsapp  {
+  color:#fff;
+  background:
+  linear-gradient(#25d366,#25d366)10px 84%/10px 15px no-repeat,
+  radial-gradient(#25d366 60%,transparent 0);
+}
+.fa-envelope  {
+  color:yellow;
+}
+.fa-mobile-alt  {
+  color:blue;
+  background:
+  radial-gradient(#FFFFFF 70%,transparent 0); 
+}
+.fa-facebook-square {
+  color:blue;
+  background:
+  radial-gradient(#FFFFFF 60%,transparent 0); 
+}
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+/* Mobile Layout: 319px and below. */
+/* Mobile Layout: 319px and below. */
+@media only screen and (min-width: 319px) {
+
+
+#contenedor1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:80px;	
+}
+
+#contenedor1 h1{
+	font-size:22px;
+	font-family:'Roboto';
+  font-weight:600;
+  text-align:center;
+}
+
+#contenedor1 h2{
+	font-size:18px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor1  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+}
+
+/* Mobile Layout: 319px and below. */
+@media only screen and (min-width: 374px) {
+
+#contenedor1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:100px;
+}
+
+#contenedor1 h1{
+	font-size:22px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor1 h2{
+	font-size:18px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor1  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+}
+/* Mobile Layout: 319px and below. */
+@media only screen and (min-width: 413px) {
+
+#contenedor1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:80px;
+}
+
+#contenedor1 h1{
+	font-size:22px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor1 h2{
+	font-size:18px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor1  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+}
+
+@media only screen and (min-width: 479px) {
+
+#contenedor1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:80px;
+}
+
+#contenedor1 h1{
+	font-size:22px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor1 h2{
+	font-size:18px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor1  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 598px) {
+
+#contenedor1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:80px;
+}
+
+#contenedor1 h1{
+	font-size:24px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor1 h2{
+	font-size:20px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor1  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+
+@media only screen and (min-width: 767px) {
+
+
+#contenedor1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:110px;
+}
+
+#contenedor1 h1{
+	font-size:26px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor1 h2{
+	font-size:22px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor1  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+@media only screen and (min-width: 799px) {
+header {
+	position:fixed;
+	z-index:100;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contenedor1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:110px;
+}
+
+#contenedor1 h1{
+	font-size:26px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor1 h2{
+	font-size:22px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor1  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+
+}
+
+
+@media only screen and (min-width:1023px) {
+
+#contenedor1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	min-height:100%;
+	display: block;
+	margin-top:110px;
+	text-align:;
+	height:auto;
+}
+
+
+#contenedor1 h1{
+	font-size:28px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor1 h2{
+	font-size:24px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor1  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+}
+
+@media only screen and (min-width:1176px) {
+
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	min-height:100%;
+	display: block;
+	margin-top:340px;
+	text-align:left;
+}
+
+#contenedor h1{
+	font-size:36px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:32px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+
+}
+
+@media only screen and (min-width:1279px) {
+
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:330px;
+}
+
+#contenedor h1{
+	font-size:38px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:34px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+
+}
+
+@media only screen and (min-width:1679px) {
+
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:370px;
+}
+
+#contenedor h1{
+	font-size:40px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:36px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+
+}
+@media only screen and (min-width:1919px) {
+
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:390px;
+}
+
+#contenedor h1{
+	font-size:36px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:32px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+
+}
+@media only screen and (min-width:2559px) {
+
+
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:470px;
+}
+
+#contenedor h1{
+	font-size:44px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:40px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+
+}
+@media only screen and (min-width:3839px) {
+
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:650px;
+}
+
+
+}

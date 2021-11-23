@@ -1,0 +1,198 @@
+
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+#logo {
+		background-color:#0B0B61;
+		width:100%;
+		height:10%;
+	
+		
+		
+	}
+#logo img{
+	width:98%;
+		margin-left:1%;
+		margin-right:1%;
+		background-color:#0B0B61;
+		height:100%;
+}
+	
+#nav  {
+	height:40px;
+	margin-top:-8px;
+	background-color:#F00;
+}
+.nav li {
+	float:left;
+	margin-left:5px;
+	margin-right:40px;
+	margin-top:6px;
+
+}	
+.nav a {
+	float:left;
+	font-size:16px;
+	margin-top:-3px;
+	color:#FFF;
+}
+
+#inicia {
+	margin-top:20px;
+	
+}
+
+#login-alert {
+	height:100%;
+	min-width:320px;
+	height:100%;
+}
+
+.container {
+	height:100%;
+	min-width:320px;
+	height:100%;
+}
+
+body h1{
+	font-size:210%;
+	text-align:center;
+	font-style:oblique;
+	color:#00F;
+
+}
+
+body h3{
+	font-size:130%;
+   text-align:center;
+   margin-left:3px;
+
+	
+}
+
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 480px) {
+.container {
+	height:100%;
+	min-width:480px;
+}
+
+#logo {
+		background-color:#0B0B61;
+		width:100%;
+		height:10%;
+		margin-top:-80px;
+		
+		
+	}
+#logo img{
+		background-color:#0B0B61;
+		width:100%;
+		height:100%;
+		
+	}
+#nav  {
+	height:30px;
+	margin-top:px;
+	background-color:#F00;
+}
+.nav li {
+	float:left;
+	margin-left:5px;
+	margin-right:40px;
+	margin-top:-3px;
+
+}	
+.nav a {
+	float:left;
+	font-size:16px;
+	margin-top:px;
+	color:#FFF;
+}
+
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+	
+	
+#logo {
+		background-color:#0B0B61;
+		width:100%;
+		height:10%;
+		margin-top:-80px;
+		
+		
+	}
+#logo img{
+		background-color:#0B0B61;
+		width:100%;
+		height:100%;
+		
+	}
+#nav  {
+	height:30px;
+	margin-top:px;
+	background-color:#F00;
+}
+.nav li {
+	float:left;
+	margin-left:5px;
+	margin-right:40px;
+	margin-top:-3px;
+
+}	
+.nav a {
+	float:left;
+	font-size:16px;
+	margin-top:px;
+	color:#FFF;
+}
+
+
+
+body h1{
+	font-size:210%;
+	text-align:center;
+	font-style:oblique;
+	color:#00F;
+
+}
+
+body h3 {
+	margin-top:190px;	
+	
+}
+
+}

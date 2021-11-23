@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+ .container #carousel-example-captions {
+				width:100%;
+}
+    .container #carousel-example-captions img {
+		min-width:100%;
+				width:100%;
+				min-height:85px;
+}
+    .container .item .carousel-caption  .btn {
+		font-size:10px;
+		margin-bottom:-80px;
+		width:40%;
+		margin-left:200px;
+		text-align:center;
+}
+ #inventario {
+	text-align:center;
+}
+#inventario img{
+	max-height:110px;
+	text-align:center;
+	margin: auto;
+}
+#inventario h4{
+		text-align:center;
+}
+@media only screen and (min-width: 767px) {
+    .container #carousel-example-captions {
+				width:100%;
+}
+    .container #carousel-example-captions img {
+				width:100%;
+				min-height:85px;
+}
+    .container .item .carousel-caption  .btn {
+		font-size:18px;
+		margin-bottom:-80px;
+		width:40%;
+		margin-left:200px;
+		text-align:center;
+}
+#inventario {
+	text-align:center;
+}
+	
+#inventario img{
+	max-height:110px;
+	text-align:center;
+	margin: auto;
+	margin-top:-1%;
+	
+}
+#inventario h4{
+		text-align:center;
+		margin-top:-1%;
+}	
+}
+

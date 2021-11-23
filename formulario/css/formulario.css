@@ -1,0 +1,772 @@
+
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+ a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ a:active {
+	color:#FFF;
+	text-decoration: none;
+}
+
+.fa-whatsapp  {
+  color:#fff;
+  background:
+  linear-gradient(#25d366,#25d366)10px 84%/10px 15px no-repeat,
+  radial-gradient(#25d366 60%,transparent 0);
+}
+.fa-envelope  {
+  color:yellow;
+}
+.fa-mobile-alt  {
+  color:blue;
+  background:
+  radial-gradient(#FFFFFF 70%,transparent 0); 
+}
+.fa-facebook-square {
+  color:blue;
+  background:
+  radial-gradient(#FFFFFF 60%,transparent 0); 
+}
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+/* Mobile Layout: 319px and below. */
+/* Mobile Layout: 319px and below. */
+@media only screen and (min-width: 320px) {
+
+header {
+	position:fixed;
+	z-index:100;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#0B0B61;
+}
+
+.navbar-brand img{
+	width:140px;
+	height:40px;
+	margin-top:-5px;	
+}
+ 
+.navbar .navbar-toggler-icon { 
+   background-image: url(../nav-icon.png); 
+   width:20px;
+	height:20px;
+	margin-top:-5px;
+	margin-left:50px;
+} 		 
+#navbarCollapse {
+	background-color:#0B0B61;
+	width:130%;
+	min-width:130%;
+	text-align:center;
+	margin-left:-20%;
+	margin-top:-10px;
+}
+#navbarCollapse  a:hover {
+  background-color: #F00;
+  color:#FFF;
+}
+#navbarCollapse .dropdown-menu a  {
+	text-align:center;
+}
+#navbarCollapse .dropdown-menu   {
+	background-color:#0B0B61;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	 background-color: #F00;
+}
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:120px;	
+}
+
+#contenedor h1{
+	font-size:10px;
+	font-family:'Roboto';
+  font-weight:600;
+  text-align:center;
+}
+
+#contenedor h2{
+	font-size:18px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+
+/* Mobile Layout: 319px and below. */
+@media only screen and (min-width: 374px) {
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+header {
+	position:fixed;
+	z-index:100;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#0B0B61;
+}
+
+.navbar-brand img{
+	width:160px;
+	height:40px;
+	margin-top:-5px;	
+}
+ 
+.navbar .navbar-toggler-icon { 
+   background-image: url(../nav-icon.png); 
+   width:20px;
+	height:20px;
+	margin-top:-5px;
+	margin-left:50px;
+} 		 
+#navbarCollapse {
+	background-color:#0B0B61;
+	width:130%;
+	min-width:130%;
+	text-align:center;
+	margin-left:-20%;
+	margin-top:-10px;
+}
+#navbarCollapse  a:hover {
+  background-color: #F00;
+  color:#FFF;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	 background-color: #F00;
+}
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:110px;
+}
+
+#contenedor h1{
+	font-size:22px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:18px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+}
+/* Mobile Layout: 319px and below. */
+@media only screen and (min-width: 413px) {
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+header {
+	position:fixed;
+	z-index:100;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#0B0B61;
+}
+
+.navbar-brand img{
+	width:160px;
+	height:40px;
+	margin-top:-5px;	
+}
+ 
+.navbar .navbar-toggler-icon { 
+   background-image: url(../nav-icon.png); 
+   width:20px;
+	height:20px;
+	margin-top:-5px;
+	margin-left:50px;
+} 		 
+#navbarCollapse {
+	background-color:#0B0B61;
+	width:130%;
+	min-width:130%;
+	text-align:center;
+	margin-left:-20%;
+	margin-top:-10px;
+}
+#navbarCollapse  a:hover {
+  background-color: #F00;
+  color:#FFF;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	 background-color: #F00;
+}
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:110px;
+}
+
+#contenedor h1{
+	font-size:22px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:18px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+}
+/* Mobile Layout: 480px and below. */
+@media only screen and (min-width: 479px) {
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+header {
+	position:fixed;
+	z-index:100;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#0B0B61;
+}
+
+.navbar-brand img{
+	width:160px;
+	height:40px;
+	margin-top:-10px;	
+}
+ 
+.navbar .navbar-toggler-icon { 
+   background-image: url(../nav-icon.png); 
+   width:20px;
+	height:20px;
+	margin-top:-10px;
+} 		 
+#navbarCollapse {
+	background-color:#0B0B61;
+	width:130%;
+	min-width:130%;
+	text-align:center;
+	margin-left:-20%;
+	margin-top:-10px;
+}
+#navbarCollapse  a:hover {
+  background-color: #F00;
+  color:#FFF;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	 background-color: #F00;
+}
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:120px;
+}
+
+#contenedor h1{
+	font-size:24px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:20px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+#slogan-azul h5{
+	font-size:16px;
+}
+
+}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 598px) {
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+header {
+	position:fixed;
+	z-index:100;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#0B0B61;
+}
+
+.navbar-brand img{
+	width:160px;
+	height:40px;
+	margin-top:-10px;	
+}
+ 
+.navbar .navbar-toggler-icon { 
+   background-image: url(../nav-icon.png); 
+   width:20px;
+	height:20px;
+	margin-top:-10px;
+} 		 
+#navbarCollapse {
+	background-color:#0B0B61;
+	width:130%;
+	min-width:130%;
+	text-align:center;
+	margin-left:-20%;
+	margin-top:-10px;
+}
+#navbarCollapse  a:hover {
+  background-color: #F00;
+  color:#FFF;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	 background-color: #F00;
+}
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:120px;
+}
+
+#contenedor h1{
+	font-size:28px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:24px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+}
+
+
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+header {
+	position:fixed;
+	z-index:100;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#0B0B61;
+}
+#navbarCollapse {
+	background-color:#0B0B61;
+	max-width:50%;
+	float:left;
+	min-width:auto;
+	text-align:center;
+	margin-left:1px;
+	height:60px;
+}
+.navbar-brand img{
+	width:230px;
+	height:60px;
+	margin-top:-3px;
+	margin-left:5px;	
+}
+#navbarCollapse  a{
+  margin-left: auto;
+  float:right;
+  margin-top:7px;
+}
+#navbarCollapse  a:hover {
+  background-color: #F00;
+  color:#FFF;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	 background-color: #F00;
+}
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:150px;
+}
+
+#contenedor h1{
+	font-size:30px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:26px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+#contenido {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+}
+@media only screen and (min-width: 799px) {
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+header {
+	position:fixed;
+	z-index:100;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#0B0B61;
+}
+#navbarCollapse {
+	background-color:#0B0B61;
+	max-width:;
+	float:left;
+	min-width:auto;
+	text-align:left;
+	margin-left:-1px;
+	height:60px;
+}
+.navbar-brand img{
+	width:270px;
+	height:60px;
+	margin-top:-3px;
+	margin-left:5px;
+	margin-right:10px;	
+}
+#navbarCollapse  a{
+  margin-left: auto;
+  float:right;
+  margin-top:7px;
+}
+#navbarCollapse  a:hover {
+  background-color: #F00;
+  color:#FFF;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	 background-color: #F00;
+}
+#contenedor {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top:150px;
+}
+
+#contenedor h1{
+	font-size:32px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+}
+
+#contenedor h2{
+	font-size:28px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+
+
+
+@media only screen and (min-width:1023px) {
+.gridContainer {
+	max-width:1223px;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	padding-left: 0%;
+	padding-right: 0%;
+	
+}
+header {
+	max-width:1223px;
+	position:fixed;
+	z-index:100;
+	clear: both;
+	float: left;
+	margin-left:0%;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#0B0B61;
+}
+#navbarCollapse {
+	background-color:#0B0B61;
+	max-width:50%;
+	float:right;
+	min-width:auto;
+	text-align:right;
+	margin-left:auto;
+	height:60px;
+}
+.navbar-brand img{
+	width:300px;
+	height:50px;
+	margin-top:-3px;
+	margin-left:5px;	
+}
+#navbarCollapse  a{
+  margin-left: auto;
+  float:right;
+  margin-top:7px;
+}
+#navbarCollapse  a:hover {
+  background-color: #F00;
+  color:#FFF;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;	
+	 background-color: #F00;
+}
+#contenedor {
+	max-width:1023px;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	min-height:100%;
+	display: block;
+	margin-top:150px;
+	text-align:;
+	height:auto;
+}
+
+#cabecera h1{
+	font-size:34px;
+	font-family:'Roboto';
+  font-weight:600;	
+  margin-left:10px;
+  color:#fff;
+}
+
+#contenedor h2{
+	font-size:30px;
+	font-family:'Roboto';
+  font-weight:300;	
+  margin-left:10px;
+}
+#contenedor  h2, h3, h4, h5, h6, p, a{
+	text-align:center;
+}
+}
+

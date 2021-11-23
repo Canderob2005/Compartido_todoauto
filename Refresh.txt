@@ -1,0 +1,6 @@
+    <meta http-equiv='Refresh' content='8;url=../index2.php'> 
+   <script> 
+function cerrarse(){ 
+window.close() 
+} 
+</script> 
